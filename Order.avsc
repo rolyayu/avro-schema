@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "org.rolyayu.orderservice.orders",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "title", "type": "string" },
+    { "name": "quantity", "type": "int" }
+  ]
+}
